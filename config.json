@@ -1,0 +1,11 @@
+{ 
+	"clientID": "1212042711960518677", // Your Bot ID.
+	"prefix": "+",
+	"voiceCN": "1212048152463413308", // For connection bot.
+	"Smath": "1193634767137149059",  // Owner id 1.
+	"Parzival": "1193634767137149059", // Owner id 2.
+	"GuildLogs": "1204357649034911775", // Channle for GuildCreate Logs.
+	"messages": {
+		"COOLDOWN_MESSAGE": "You are on `<duration>` cooldown!"
+	}
+}
