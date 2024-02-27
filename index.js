@@ -1,5 +1,6 @@
 const { Client, GatewayIntentBits, Partials, Collection, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
+const dotenv = require('dotenv');
 const config = require('./config.json');
 const client = new Client({
 	intents: [
@@ -32,7 +33,7 @@ fs.readdirSync('./handlers').forEach((handler) => {
   require(`./handlers/${handler}`)(client)
 });
 //-----------------------
-client.login(require('./config.json').token).then(() => console.log(require('chalk').cyanBright(('Successfully Connecting To ' + client.user.tag))))
+client.login(require(process.env.BOT_TOKEN).token).then(() => console.log(require('chalk').cyanBright(('Successfully Connecting To ' + client.user.tag))))
 //-----------------------
 client.on('error', () => { })
 client.on('shardError', error => {return})
