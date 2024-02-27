@@ -1,3 +1,4 @@
+require("dotenv-json")(); 
 { 
 	"token": "process.env.BOT_TOKEN", // Your Bot Token.
 	"clientID": "process.env.CLIENTID", // Your Bot ID.
