@@ -1,11 +1,11 @@
 {
 	"token": "your token here here", // Your Bot Token.
-	"clientID": "your client id", // Your Bot ID.
+	"clientID": "1339259482739314709", // Your Bot ID.
 	"prefix": "r!",
-	"voiceCN": "1050050537774661673", // For connection bot.
-	"Smath": "964194837337362512",  // Owner id 1.
-	"Parzival": "311194511931998209", // Owner id 2.
-	"GuildLogs": "1055773337915236382", // Channle for GuildCreate Logs.
+	"voiceCN": "1339287056848912538", // For connection bot.
+	"Smath": "1090185099116564551",  // Owner id 1.
+	"Parzival": "1090185099116564551", // Owner id 2.
+	"GuildLogs": "1339283871111581848", // Channle for GuildCreate Logs.
 	"messages": {
 		"COOLDOWN_MESSAGE": "You are on `<duration>` cooldown!"
 	}
